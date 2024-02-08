@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">   
+    <title>My notes</title>
+</head>
+    <body>
+        <h1>My notes</h1>
+
+        <div id="add">
+            <button id="add-btn" class="add-btn">Add a note</button>
+            <form id="add-form">
+                <input type="text" placeholder="Note" id="noteContent" autocomplete="off">
+                <button type="submit" class="save-btn" id="save-btn">Add</button>
+            </form>
+        </div>
+
+        <div id="active-notes">
+
+            <table id="active-table">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th colspan="2">Active notes</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div id="archived-notes">
+
+            <table id="archived table">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th colspan="2">Archived notes</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div id="edit">
+            <form id ="edit-form">
+                <input type="text" id="edit-content" autocomplete="off">
+                <button type="submit" class="save-btn" id="update-btn">Save</button>
+            </form>
+        </div>
+    <script src="scripts.js"></script>
+    </body>
+</html>
