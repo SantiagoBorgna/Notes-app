@@ -23,5 +23,5 @@ The Notes Generation App is a comprehensive digital tool designed to enhance the
 Contributions are welcome! Please feel free to submit issues or pull requests for any features, bug fixes, or enhancements.
 
 ## Contact
-For any inquiries or feedback, please contact me (mailto:santiborgna5@gmail.com).
+For any inquiries or feedback, please contact me (mailto:santiborgna5@gmail.com) or [LinkedIn](www.linkedin.com/in/santiago-borgna)
 
